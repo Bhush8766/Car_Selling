@@ -26,7 +26,7 @@ const userRegister = () => {
     };
 
     const responce = await axios.post(
-      `${import.meta.env.VITE_BASE_URL}https://car-selling-backend-yhh1.onrender.com`,
+      `${import.meta.env.VITE_BASE_URL}/users/register`,
       newUser
     );
 
