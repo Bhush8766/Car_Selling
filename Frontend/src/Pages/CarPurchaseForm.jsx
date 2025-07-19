@@ -18,7 +18,7 @@ const CarPurchaseForm = () => {
         try {
             console.log("Submitting data:", formData);
 
-            const response = await fetch("http://localhost:3000/car/purchase", {
+            const response = await fetch("https://car-selling-backend-yhh1.onrender.com", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
